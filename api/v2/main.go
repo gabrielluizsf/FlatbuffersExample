@@ -11,7 +11,7 @@ func main() {
    fmt.Println(name,age)
    printCourse(courseID,courseName,description)
    if err := startServer(":2500"); err != nil{
-      log.Fatalf("Erro ao iniciar o servidor:",err)
+      log.Fatalf("Erro ao iniciar o servidor: %v",err)
    }
 }
 func printCourse(courseID int32, courseName, description string){
