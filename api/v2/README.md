@@ -11,5 +11,5 @@ flatc --go person.fbs
 ## Run Code
 
 ```go
-go run main.go
+go run *.go
 ```
