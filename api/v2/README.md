@@ -8,3 +8,8 @@ go mod tidy
 ```flatc
 flatc --go person.fbs
 ```
+## Run Code
+
+```go
+go run main.go
+```
